@@ -5,6 +5,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
+#define SCROLL 5
 #define MOUSE 6
 
 &mt {
