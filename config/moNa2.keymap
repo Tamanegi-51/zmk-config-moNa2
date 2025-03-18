@@ -2,7 +2,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 #define SCROLL 5
@@ -117,10 +116,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB1  &mkp MB1  &mkp MB2  &mkp MB3
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB1  &mkp MB1  &mkp MB2  &mkp MB3
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                    &trans    &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp MB2  &mkp MB1  &mkp MB1  &mkp MB2  &mkp MB3
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp MB2  &mkp MB1  &mkp MB1  &mkp MB2  &mkp MB3
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                  &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
