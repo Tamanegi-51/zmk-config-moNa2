@@ -48,10 +48,10 @@
 
         default_layer {
             bindings = <
-&mt LCTRL Q     &kp W         &kp E         &kp R        &kp T                                      &kp Y        &kp U  &kp I      &kp O    &lt 5 P
-&lt 4 A         &kp S         &kp D         &kp F        &kp G        &trans         &kp PAGE_UP    &kp H        &kp J  &lt 5 K    &kp L    &kp MINUS
-&kp Z           &kp X         &kp C         &kp V        &kp B        &lt 4 HOME     &kp PAGE_DOWN  &kp N        &kp M  &kp COMMA  &kp DOT  &kp PLUS
-&kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_ALT  &lt 6 SPACE  &lt 3 LANG2  &lt 2 LANG1    &kp BACKSPACE  &lt 1 ENTER                             &kp RALT
+&mt LCTRL Q     &kp W         &kp E         &kp R        &kp T                                        &kp Y        &kp U  &kp I      &kp O    &lt 5 P
+&lt 4 A         &kp S         &kp D         &kp F        &kp G        &trans         &kp PAGE_UP      &kp H        &kp J  &lt 5 K    &kp L    &kp MINUS
+&kp Z           &kp X         &kp C         &kp V        &kp B        &lt 4 HOME     &kp PAGE_DOWN    &kp N        &kp M  &kp COMMA  &kp DOT  &kp PLUS
+&kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_ALT  &lt 6 SPACE  &lt 3 LANG2  &lt 2 LANG1    &lt 3 BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings =
@@ -84,7 +84,7 @@
         layer_3 {
             bindings = <
 &kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                                    &trans    &trans              &trans          &kp END              &kp HOME
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END   &kp PG_UP        &kp PAGE_UP    &kp HOME  &kp LA(LEFT_ARROW)  &kp UP_ARROW    &kp RA(RIGHT_ARROW)  &kp END
+&kp TAB         &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END   &kp PG_UP        &kp PAGE_UP    &kp HOME  &kp LA(LEFT_ARROW)  &kp UP_ARROW    &kp RA(RIGHT_ARROW)  &kp END
 &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &kp HOME  &kp PAGE_DOWN    &kp PAGE_DOWN  &kp END   &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp PAGE_UP
 &trans          &trans                  &trans          &trans                   &trans    &trans           &trans         &trans                                                             &kp PAGE_DOWN
             >;
