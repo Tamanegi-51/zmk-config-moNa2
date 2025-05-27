@@ -84,7 +84,7 @@
         layer_3 {
             bindings = <
 &kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                                    &trans    &trans              &trans          &kp END              &kp HOME
-&kp TAB         &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END   &kp PG_UP        &kp PAGE_UP    &kp HOME  &kp LA(LEFT_ARROW)  &kp UP_ARROW    &kp RA(RIGHT_ARROW)  &kp END
+&kp TAB         &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END   &trans           &kp PAGE_UP    &kp HOME  &kp LA(LEFT_ARROW)  &kp UP_ARROW    &kp RA(RIGHT_ARROW)  &kp END
 &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &kp HOME  &kp PAGE_DOWN    &kp PAGE_DOWN  &kp END   &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp PAGE_UP
 &trans          &trans                  &trans          &trans                   &trans    &trans           &trans         &trans                                                             &kp PAGE_DOWN
             >;
@@ -118,7 +118,7 @@
             bindings = <
 &trans  &trans    &trans    &trans    &trans                        &trans    &mkp MB3  &mkp MB3  &trans    &trans
 &trans  &mkp MB2  &mkp MB2  &mkp MB1  &mkp MB1  &trans      &trans  &mkp MB2  &mkp MB1  &mkp MB1  &mkp MB2  &mkp MB3
-&trans  &mkp MB3  &mkp MB3  &mkp MB1  &mkp MB1  &mkp MB3    &trans  &mkp MB2  &mkp MB1  &mkp MB1  &mkp MB2  &mkp MB3
+&trans  &mkp MB3  &mkp MB3  &mkp MB1  &mkp MB1  &mkp MB2    &trans  &mkp MB2  &mkp MB1  &mkp MB1  &mkp MB2  &mkp MB3
 &trans  &trans    &trans    &trans    &trans    &trans      &trans  &trans                                  &trans
             >;
 
