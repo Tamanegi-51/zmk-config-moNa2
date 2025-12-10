@@ -107,8 +107,8 @@
             bindings = <
 &kp LS(LC(TAB))  &kp LC(W)  &kp LC(T)      &kp END   &kp PAGE_UP                          &trans         &trans    &trans    &mkp MB3  &trans
 &kp LC(TAB)      &kp LG(E)  &kp LS(LC(T))  &kp HOME  &kp PAGE_DOWN              &kp END   &kp PAGE_UP    &mkp MB1  &mkp MB1  &mkp MB3  &kp HOME
-&trans           &mkp MB1   &mkp MB1       &mkp MB5  &mkp MB4       &mkp MB3    &kp HOME  &kp PAGE_DOWN  &mkp MB1  &mkp MB2  &mkp MB2  &kp PAGE_UP
-&trans           &trans     &mkp MB2       &mkp MB1  &mkp MB3       &mkp MB2    &trans    &trans                                       &kp PAGE_DOWN
+&kp LC(V)        &mkp MB1   &mkp MB1       &mkp MB5  &mkp MB4       &mkp MB3    &kp HOME  &kp PAGE_DOWN  &mkp MB1  &mkp MB2  &mkp MB2  &kp PAGE_UP
+&kp LC(C)        &trans     &mkp MB2       &mkp MB1  &mkp MB3       &mkp MB2    &trans    &trans                                       &kp PAGE_DOWN
             >;
 
             sensor-bindings = <&scroll_up_down>;
