@@ -19,7 +19,7 @@
         to_layer_0: to_layer_0 {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-            bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
+            bindings = <&to 1 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
     };
@@ -48,7 +48,7 @@
 
         default_layer {
             bindings = <
-&mt LCTRL Q  &kp W         &kp E         &kp R        &kp T                                        &kp Y        &kp U  &lt 6 I    &kp O    &lt 6 P
+&mt LCTRL Q  &kp W         &kp E         &kp R        &kp T                                        &kp Y        &kp U  &kp I      &kp O    &lt 6 P
 &kp A        &kp S         &kp D         &kp F        &kp G                       &kp PAGE_UP      &kp H        &kp J  &kp K      &kp L    &kp MINUS
 &kp Z        &kp X         &kp C         &kp V        &lt 2 B      &lt 4 HOME     &kp PAGE_DOWN    &kp N        &kp M  &kp COMMA  &kp DOT  &kp PLUS
 &kp LSHFT    &kp LEFT_WIN  &kp LEFT_ALT  &lt 5 SPACE  &lt 3 LANG2  &lt 6 LANG1    &lt 1 BACKSPACE  &lt 3 ENTER                             &kp PAGE_DOWN
@@ -105,10 +105,10 @@
 
         MOUSE {
             bindings = <
-&kp LS(LC(TAB))  &kp LC(W)  &kp LC(T)      &kp END   &kp PAGE_UP                          &trans         &trans    &trans    &mkp MB3  &trans
-&kp LC(TAB)      &kp LG(E)  &kp LS(LC(T))  &kp HOME  &kp PAGE_DOWN              &kp END   &kp PAGE_UP    &mkp MB1  &mkp MB1  &mkp MB3  &kp HOME
-&kp LC(V)        &mkp MB1   &mkp MB1       &mkp MB5  &mkp MB4       &mkp MB3    &kp HOME  &kp PAGE_DOWN  &mkp MB1  &mkp MB2  &mkp MB2  &kp PAGE_UP
-&kp LC(C)        &trans     &mkp MB2       &mkp MB1  &mkp MB3       &mkp MB2    &trans    &trans                                       &kp PAGE_DOWN
+&kp LS(LC(TAB))  &kp LC(W)  &kp LC(T)      &kp END   &kp PAGE_UP                          &trans         &trans          &mkp MB3        &kp END          &trans
+&kp LC(TAB)      &kp LG(E)  &kp LS(LC(T))  &kp HOME  &kp PAGE_DOWN              &kp END   &kp PAGE_UP    &mkp MB1        &kp UP_ARROW    &mkp MB2         &kp HOME
+&kp LC(V)        &mkp MB1   &mkp MB1       &mkp MB5  &mkp MB4       &mkp MB3    &kp HOME  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP
+&kp LC(C)        &trans     &mkp MB2       &mkp MB1  &mkp MB3       &mkp MB2    &trans    &trans                                                          &kp PAGE_DOWN
             >;
 
             sensor-bindings = <&scroll_up_down>;
