@@ -107,7 +107,7 @@
             bindings = <
 &kp LS(LC(TAB))  &kp LC(W)  &kp LC(T)      &trans    &trans                        &trans  &mkp MB4  &mkp MB5  &trans    &trans
 &kp LC(TAB)      &kp LG(E)  &kp LS(LC(T))  &trans    &trans                &trans  &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
-&kp LC(V)        &mkp MB1   &mkp MB1       &mkp MB5  &mkp MB4  &mkp MB3    &trans  &trans  &mkp MB3  &mkp MB3  &trans    &trans
+&kp LC(V)        &mkp MB1   &mkp MB1       &mkp MB5  &mkp MB4  &mkp MB3    &trans  &trans  &mkp MB3  &trans    &trans    &trans
 &kp LC(C)        &trans     &mkp MB2       &mkp MB1  &mkp MB3  &mkp MB2    &trans  &trans                                &trans
             >;
 
